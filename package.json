@@ -10,8 +10,7 @@
     "body-parser": "~1.8.1",
     "lodash": "*",
     "jwt-simple": "*",
-    "moment": "*",
-    "learner-profile-client": "1.0.1"
+    "moment": "*"
   },
   "devDependencies": {
     "gulp": "*",

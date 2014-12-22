@@ -2,7 +2,7 @@ var _ = require('lodash');
 
 var app = require('./express.config')();
 var authData = require('./auth.data');
-var ensureAuthenticated = require('learner-profile-client').middleWare.ensureAuthenticated;
+var ensureAuthenticated = require('./auth.middleware').ensureAuthenticated;
 
 var stubServerFactory = function (userOptions) {
     var options = {
