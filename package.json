@@ -1,6 +1,10 @@
 {
   "name": "learner-profile-stub",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdapTeach/learner-profile-stub.git"
+  },
   "dependencies": {
     "express": "~4.9.0",
     "body-parser": "~1.8.1",
